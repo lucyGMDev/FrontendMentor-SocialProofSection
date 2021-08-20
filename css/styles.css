@@ -17,6 +17,7 @@ Fuente de la página
 
 body {
   background-color: hsl(0, 0%, 90%);
+  font-family: "Karla", sans-serif;
 }
 
 .bg-pattern-top{
@@ -30,4 +31,102 @@ body {
   right:0;
 }
 
+.container
+{
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+}
 
+.left-container{
+  position: relative;
+  height:400px;
+  top: 4em;
+  width:40%;
+}
+.title{
+  color: hsl(300, 43%, 22%);
+  font-size: 3rem;
+}
+
+.description{
+  color: hsl(303, 10%, 53%);
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+.right-container{
+  position: absolute;
+  height: 400px;
+  right: 0;
+  top: 0;
+}
+
+.rate{
+  background-color: hsl(300, 24%, 96%);
+  padding: 1.25em 1.5em;
+  margin: 2.5em 0;
+  border-radius: 0.5em;
+}
+.rate__text{
+  color: hsl(303, 10%, 53%);
+  margin-left:2em;
+  font-weight: 200;
+}
+.top-rate{
+  position: relative;
+  right: 5em;
+}
+
+.middle-rate{
+  position:relative;
+  right: 2.5em;
+}
+
+.bottom-container{
+  position: relative;
+}
+
+.user-rating{
+  position: absolute;
+  background-color: hsl(300, 43%, 22%);
+  color: white;
+  border-radius: 2em;
+  padding: 3em;
+  width: 500px;
+  height:300px;
+}
+
+.user-rating-middle{
+  left: 525px;
+  top: 75px;
+}
+
+.user-rating-right{
+  right:0px;
+  top:150px;
+}
+
+.user__picture{
+  border-radius: 50%;
+}
+
+.rate__header{
+  position: relative;
+  right: 0;
+  width: 300px;
+}
+.user-data{
+  position: relative;
+  top: -0.25em;
+  left: 1em;
+  font-size: 1.25rem;
+  
+}
+.user-data{
+  display: inline-block;
+}
+.user-description{
+  color: hsl(333, 80%, 67%);
+}
