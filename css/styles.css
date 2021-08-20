@@ -18,3 +18,16 @@ Fuente de la página
 body {
   background-color: hsl(0, 0%, 90%);
 }
+
+.bg-pattern-top{
+  position:absolute;
+  top:0;
+  left:0;
+}
+.bg-pattern-bottom{
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+
