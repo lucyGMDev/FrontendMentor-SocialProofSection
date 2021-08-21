@@ -20,13 +20,15 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+.bg-pattern-bottom,
 .bg-pattern-top{
   position:absolute;
+}
+.bg-pattern-top{
   top:0;
   left:0;
 }
 .bg-pattern-bottom{
-  position:absolute;
   bottom:0;
   right:0;
 }
@@ -65,10 +67,15 @@ body {
 
 .rate{
   background-color: hsl(300, 24%, 96%);
-  padding: 1.25em 1.5em;
-  margin: 2.5em 0;
+  padding: 2em 1.5em;
+  margin: 1.5em 0;
   border-radius: 0.5em;
+  width:450px;
 }
+.star-icon{
+  margin-right: 0.4em;
+}
+
 .rate__text{
   color: hsl(303, 10%, 53%);
   margin-left:2em;
@@ -112,20 +119,20 @@ body {
   border-radius: 50%;
 }
 
-.rate__header{
+.user-rate__header{
   position: relative;
-  right: 0;
   width: 300px;
 }
 .user-data{
   position: relative;
-  top: -0.25em;
+  display: inline-block;
+  top: -0.5em;
   left: 1em;
   font-size: 1.25rem;
   
 }
-.user-data{
-  display: inline-block;
+.username{
+  margin-top:0;
 }
 .user-description{
   color: hsl(333, 80%, 67%);
